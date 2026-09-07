@@ -119,6 +119,7 @@ def build_android_apk():
     final_apk = os.path.join(r"c:\Users\harsh\OneDrive\Desktop\SIH Project", "Intelligent_Dead_Reckoning_SIH2026.apk")
     cmd_sign = [
         java, "-jar", apksigner_jar, "sign",
+        "--v4-signing-enabled", "false",
         "--ks", keystore,
         "--ks-pass", "pass:android",
         "--key-pass", "pass:android",
