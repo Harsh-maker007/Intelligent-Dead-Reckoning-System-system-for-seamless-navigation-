@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Dead Reckoning SIH</string>
+    <string name="title_header">SIH 2026: Intelligent Dead Reckoning</string>
+    <string name="gnss_status_active">GNSS Connected (GPS Active)</string>
+    <string name="gnss_status_blackout">GNSS Blackout (AI Dead Reckoning Active)</string>
+    <string name="btn_gnss_toggle">Simulate GNSS Outage</string>
+    <string name="btn_reset_path">Reset Trajectory</string>
+    <string name="btn_export_gpx">Export GPX / CSV</string>
+</resources>

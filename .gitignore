@@ -1,0 +1,21 @@
+# Android build output & temporary files
+android_app/build_out_*
+android_app/app/build/
+android_app/.gradle/
+android_app/.idea/
+android_app/local.properties
+*.apk
+*.dex
+
+# Python bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+python_ai_model/__pycache__/
+python_ai_model/dead_reckoning_model.pth
+
+# OS generated files
+.DS_Store
+Thumbs.db
